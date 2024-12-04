@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+
+    
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="logo1.png" alt="Logo" class="logo" />
+        </div>
+
+        <div class="titulo">
+            <h1>AGROVISION</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="servico.html"><strong>SERVIÇOS</strong></a></li>
+                <li><a href="blog.html"><strong>BLOG</strong></a></li>
+                <li><a href="contato.html"><strong>CONTATO</strong></a></li>
+            </ul>
+        </nav>
+    </header><br>
+    
+
+    <div class="formulario">
+        <h1><b>FORMULÁRIO</b></h1>
+    </div>
+    <hr><br>
+    <div class="formulario2"> 
+        <section>        
+        
+            <form id="myForm" action="#" method="post"> 
+                <!-- Campo para Nome -->
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><br>
+
+                <!-- Campo para Email -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required><br><br>
+
+                <!-- Campo para Endereço -->
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço" required><br><br>
+
+                <!-- Campo para Telefone -->
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required><br><br>
+
+                <!-- Campo para Data de Nascimento -->
+                <label for="data_nascimento">Data de Nascimento:</label>
+                <input type="date" id="data_nascimento" name="data_nascimento" required><br><br>
+
+                <!-- Campo de Texto para Mensagem -->
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50"
+                placeholder="Escreva sua mensagem aqui..."></textarea><br><br>
+                <!-- Botão de Submissão -->
+                <input type="submit" value="Enviar" >
+            </form>
+        </section>
+    </div> 
+   
+</body>
+
+</html>
